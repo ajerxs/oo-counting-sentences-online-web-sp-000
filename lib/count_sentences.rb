@@ -20,7 +20,7 @@ class String
       nu_array << sentence
     end
     nu_array.each do |a|
-      a.delete_if {|element| element == ""}
+      a.reject! {|element| element == ""}
     end
     nu_array.count
   end
