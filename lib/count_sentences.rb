@@ -19,7 +19,10 @@ class String
     self.split(/[\s.!?]/).each do |sentence|
       nu_array << sentence
     end
-    nu_array.delete_if {|element| element == ""}
+    nu_array.each do |a|
+      a.delete_if {|element| element == ""}
+    end
+    nu_array.count
   end
 
 end
