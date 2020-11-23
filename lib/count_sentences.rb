@@ -15,7 +15,9 @@ class String
   end
 
   def count_sentences
-    self.split(/[\s.!?]/).to_s
+    nu_array = []
+    self.split(/[\s.!?]/).each do |sentence|
+      nu_array << sentence
   end
 
 end
