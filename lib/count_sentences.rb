@@ -21,7 +21,7 @@ class String
     end
     nu_array.each do |a|
       if a == ""
-        a.delete
+        a.delete!
       end
     end
   end
