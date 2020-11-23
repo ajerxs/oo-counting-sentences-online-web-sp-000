@@ -22,7 +22,6 @@ class String
     nu_array.each do |a|
       a.delete("")
     end
-    nu_array.count
   end
 
 end
