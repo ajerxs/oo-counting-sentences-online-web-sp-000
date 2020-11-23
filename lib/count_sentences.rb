@@ -18,6 +18,7 @@ class String
     nu_array = []
     self.split(/[\s.!?]/).each do |sentence|
       nu_array << sentence
+    end
   end
 
 end
