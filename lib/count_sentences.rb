@@ -20,7 +20,7 @@ class String
       nu_array << sentence
     end
     nu_array.each do |a|
-      a.delete!("")
+      a.delete!(" ")
     end
   end
 
