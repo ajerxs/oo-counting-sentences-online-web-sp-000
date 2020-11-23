@@ -21,7 +21,7 @@ class String
       nu_array.delete(||)
     end
   end
-    
-    
+
+
   end
 end
