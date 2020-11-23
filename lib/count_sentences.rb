@@ -18,8 +18,8 @@ class String
     nu_array = []
     self.split(/[\s.!?]/).each do |sentence|
       sentence << nu_array
-      nu_array.delete("")
     end
+    nu_array.delete("")
   end
 
 end
